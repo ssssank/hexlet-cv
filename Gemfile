@@ -9,7 +9,7 @@ gem 'acts-as-taggable-on'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # NOTE Не обновил версию рельсы, т.к. https://github.com/charlotte-ruby/impressionist/issues/302
-gem 'rails', '~> 6.1'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
