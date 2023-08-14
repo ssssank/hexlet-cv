@@ -26,7 +26,7 @@ gem 'redis'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'bootstrap'
+gem 'bootstrap', '>= 5.3.0'
 gem 'jquery-rails'
 gem 'sorbet'
 gem 'sprockets-rails'
