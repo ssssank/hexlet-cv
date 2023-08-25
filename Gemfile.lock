@@ -164,7 +164,7 @@ GEM
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     i18n-debug (1.2.0)
       i18n (< 2)
@@ -214,7 +214,7 @@ GEM
       actionpack (>= 3.2.0, < 7.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.18.0)
+    minitest (5.19.0)
     minitest-power_assert (0.3.1)
       minitest
       power_assert (>= 1.1)
@@ -463,7 +463,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    wicked_pdf (2.6.3)
+    wicked_pdf (2.7.0)
       activesupport
     wkhtmltopdf-binary (0.12.6.6)
     xpath (3.2.0)
@@ -551,7 +551,7 @@ DEPENDENCIES
   validate_url
   web-console
   webdrivers
-  wicked_pdf
+  wicked_pdf (>= 2.7.0)
   wkhtmltopdf-binary
   yard
 
@@ -559,4 +559,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.1
+   2.4.6
