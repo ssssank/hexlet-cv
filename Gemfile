@@ -71,7 +71,7 @@ gem 'slim-rails'
 gem 'translit'
 gem 'validate_url'
 gem 'valid_email2'
-gem 'wicked_pdf'
+gem 'wicked_pdf', '>= 2.7.0'
 gem 'wkhtmltopdf-binary'
 
 group :development, :test do
