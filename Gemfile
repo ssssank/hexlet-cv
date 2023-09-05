@@ -70,7 +70,7 @@ gem 'simple_form'
 gem 'slim-rails'
 gem 'translit'
 gem 'validate_url'
-gem 'valid_email2'
+gem 'valid_email2', '>= 5.0.0'
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 
@@ -92,7 +92,7 @@ group :development do
   gem 'html2slim'
   gem 'i18n-debug'
   gem 'listen'
-  gem 'web-console'
+  gem 'web-console', '>= 4.2.1'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'reek'
   gem 'rubocop'
