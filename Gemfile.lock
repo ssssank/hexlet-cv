@@ -76,8 +76,8 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    acts-as-taggable-on (9.0.1)
-      activerecord (>= 6.0, < 7.1)
+    acts-as-taggable-on (10.0.0)
+      activerecord (>= 6.1, < 7.2)
     addressable (2.8.3)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
@@ -164,7 +164,7 @@ GEM
     httparty (0.21.0)
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    i18n (1.12.0)
+    i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     i18n-debug (1.2.0)
       i18n (< 2)
@@ -214,7 +214,7 @@ GEM
       actionpack (>= 3.2.0, < 7.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.18.0)
+    minitest (5.20.0)
     minitest-power_assert (0.3.1)
       minitest
       power_assert (>= 1.1)
@@ -481,7 +481,7 @@ PLATFORMS
 DEPENDENCIES
   aasm
   active_form_model (~> 0.4.1)
-  acts-as-taggable-on
+  acts-as-taggable-on (>= 10.0.0)
   bootsnap
   bootstrap
   browser
@@ -559,4 +559,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.1
+   2.4.6
