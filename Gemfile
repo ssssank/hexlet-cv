@@ -54,7 +54,7 @@ gem 'net-imap', require: false
 gem 'net-pop', require: false
 gem 'net-smtp', require: false
 gem 'nokogiri'
-gem 'omniauth'
+gem 'omniauth', '>= 2.1.2'
 gem 'omniauth-github'
 gem 'omniauth-rails_csrf_protection'
 gem 'paint'
