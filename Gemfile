@@ -17,7 +17,7 @@ gem 'puma'
 # Use SCSS for stylesheets
 # gem 'sass-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.12.0'
 # Use Redis adapter to run Action Cable in production
 gem 'redis'
 # Use Active Model has_secure_password
