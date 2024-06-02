@@ -33,7 +33,7 @@ gem 'sprockets-rails'
 gem 'terser'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'aasm'
-gem 'active_form_model', '~> 0.4.1'
+gem 'active_form_model', '~> 0.5.1'
 gem 'bootsnap', require: false
 gem 'browser'
 gem 'cocoon'
