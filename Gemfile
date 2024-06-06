@@ -29,7 +29,7 @@ gem 'redis'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'sorbet'
-gem 'sprockets-rails'
+gem 'sprockets-rails', '>= 3.5.0'
 gem 'terser'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'aasm'
