@@ -80,9 +80,9 @@ group :development, :test do
   gem 'faker'
   # Use sqlite3 as the database for Active Record
   gem 'factory_bot_rails'
-  gem 'rubocop-performance'
-  gem 'rubocop-rails'
-  gem 'slim_lint'
+  gem 'rubocop-performance', '>= 1.17.0'
+  gem 'rubocop-rails', '>= 2.19.0'
+  gem 'slim_lint', '>= 0.25.0'
   gem 'sqlite3'
 end
 
@@ -95,8 +95,8 @@ group :development do
   gem 'web-console'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'reek'
-  gem 'rubocop'
-  gem 'solargraph'
+  gem 'rubocop', '>= 1.50.0'
+  gem 'solargraph', '>= 0.49.0'
   gem 'spring'
 end
 
@@ -104,10 +104,10 @@ group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara'
   gem 'minitest-power_assert'
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '>= 4.9.0'
   gem 'simplecov', require: false
   # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
+  gem 'webdrivers', '>= 5.3.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
