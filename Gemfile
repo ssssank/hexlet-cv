@@ -13,7 +13,7 @@ gem 'ruby-openai'
 # NOTE Не обновил версию рельсы, т.к. https://github.com/charlotte-ruby/impressionist/issues/302
 gem 'rails', '~> 7'
 # Use Puma as the app server
-gem 'puma'
+gem 'puma', '>= 6.4.3'
 # Use SCSS for stylesheets
 # gem 'sass-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
