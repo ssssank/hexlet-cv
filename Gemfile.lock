@@ -230,7 +230,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    nio4r (2.5.9)
+    nio4r (2.7.3)
     nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.14.3-x86_64-darwin)
@@ -269,7 +269,7 @@ GEM
     popper_js (2.11.6)
     power_assert (2.0.3)
     public_suffix (5.0.1)
-    puma (6.2.1)
+    puma (6.4.3)
       nio4r (~> 2.0)
     pundit (2.3.0)
       activesupport (>= 3.0.0)
@@ -519,7 +519,7 @@ DEPENDENCIES
   paint
   paper_trail
   pg
-  puma
+  puma (>= 6.4.3)
   pundit
   rails (~> 7)
   rails-i18n
@@ -559,4 +559,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.1
+   2.4.6
