@@ -87,7 +87,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'yard'
+  gem 'yard', '>= 0.9.29'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'html2slim'
   gem 'i18n-debug'
