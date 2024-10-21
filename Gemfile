@@ -11,7 +11,7 @@ gem 'ruby-openai'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # NOTE Не обновил версию рельсы, т.к. https://github.com/charlotte-ruby/impressionist/issues/302
-gem 'rails', '~> 7'
+gem 'rails', '~> 7', '>= 7.0.8.5'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
@@ -26,7 +26,7 @@ gem 'redis'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-gem 'bootstrap'
+gem 'bootstrap', '>= 5.3.2'
 gem 'jquery-rails'
 gem 'sorbet'
 gem 'sprockets-rails'
