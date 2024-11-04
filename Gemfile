@@ -95,7 +95,7 @@ group :development do
   gem 'web-console'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'reek'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'solargraph'
   gem 'spring'
 end
