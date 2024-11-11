@@ -5,7 +5,7 @@ ruby '3.2.2'
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 12.0.0'
 
 gem 'ruby-openai'
 
@@ -60,7 +60,7 @@ gem 'omniauth-rails_csrf_protection'
 gem 'paint'
 gem 'paper_trail'
 gem 'pundit'
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 gem 'ransack'
 gem 'recaptcha'
 gem 'redcarpet', github: 'vmg/redcarpet'
