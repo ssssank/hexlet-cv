@@ -5,13 +5,13 @@ ruby '3.2.2'
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'acts-as-taggable-on'
+gem 'acts-as-taggable-on', '>= 10.0.0'
 
 gem 'ruby-openai'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # NOTE Не обновил версию рельсы, т.к. https://github.com/charlotte-ruby/impressionist/issues/302
-gem 'rails', '~> 7'
+gem 'rails', '~> 7', '>= 7.1.5.2'
 # Use Puma as the app server
 gem 'puma'
 # Use SCSS for stylesheets
@@ -37,7 +37,7 @@ gem 'active_form_model', '~> 0.4.1'
 gem 'bootsnap', require: false
 gem 'browser'
 gem 'cocoon'
-gem 'counter_culture'
+gem 'counter_culture', '>= 3.3.1'
 gem 'devise'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
@@ -58,10 +58,10 @@ gem 'omniauth'
 gem 'omniauth-github'
 gem 'omniauth-rails_csrf_protection'
 gem 'paint'
-gem 'paper_trail'
+gem 'paper_trail', '>= 15.0.0'
 gem 'pundit'
 gem 'rails-i18n'
-gem 'ransack'
+gem 'ransack', '>= 4.1.0'
 gem 'recaptcha'
 gem 'redcarpet', github: 'vmg/redcarpet'
 gem 'sentry-rails'
