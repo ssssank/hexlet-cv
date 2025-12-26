@@ -7,7 +7,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'acts-as-taggable-on'
 
-gem 'ruby-openai'
+gem 'ruby-openai', '>= 4.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # NOTE Не обновил версию рельсы, т.к. https://github.com/charlotte-ruby/impressionist/issues/302
